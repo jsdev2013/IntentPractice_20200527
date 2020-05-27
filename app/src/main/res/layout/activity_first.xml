@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp"
+    android:orientation="vertical"
     android:gravity="center"
     tools:context=".FirstActivity">
 
@@ -15,7 +16,7 @@
 
     <Button
         android:id="@+id/goBackBtn"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="이전으로 돌아기기"/>
 
