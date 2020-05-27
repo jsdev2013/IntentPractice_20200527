@@ -20,5 +20,12 @@ class MainActivity : AppCompatActivity() {
             val myIntent = Intent(this, SecondActivity::class.java)
             startActivity(myIntent)
         }
+
+        thirdBtn.setOnClickListener {
+            val content = contentEdit.text.toString()
+            val myIntent = Intent(this, ThirdActivity::class.java)
+            myIntent.putExtra("input",content)
+            startActivity(myIntent)
+        }
     }
 }
