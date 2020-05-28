@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         fourthBtn.setOnClickListener {
             val myIntent = Intent(this, FourthActivity::class.java)
-            startActivity(myIntent)
+            startActivityForResult(myIntent, 100)
         }
     }
 }
