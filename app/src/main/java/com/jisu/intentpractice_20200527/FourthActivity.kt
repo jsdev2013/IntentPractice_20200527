@@ -14,9 +14,15 @@ class FourthActivity : AppCompatActivity() {
 
         goBackBtn.setOnClickListener {
 
-            val input = goBackMessageEdt.text.toString()
+            val input01 = goBackMessageNameEdt.text.toString()
+            val input02 = goBackMessageAgeEdt.text.toString()
+
+            val inputs = listOf<String> (input01,input02)
+
             val goBackIntent = Intent()
-            goBackIntent.putExtra("message",input)
+            goBackIntent.putExtra("messageName",input01)
+            goBackIntent.putExtra("messageAge",input02)
+            //goBackIntent.putExtra("messageInputs",inputs)
 
             setResult(Activity.RESULT_OK, goBackIntent)
 

@@ -47,9 +47,10 @@ class MainActivity : AppCompatActivity() {
 
         if(requestCode == REQ_FOR_MESSAGE) {
             if(resultCode == Activity.RESULT_OK){
-                val message = data?.getStringExtra("message")
-
-                resultTxt.text = message
+                val messageName = data?.getStringExtra("messageName")
+                val messageAge = data?.getStringExtra("messageAge")
+                resultNameTxt.text = messageName
+                resultAgeTxt.text = messageAge
             }
         }
     }

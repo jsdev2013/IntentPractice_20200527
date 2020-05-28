@@ -36,11 +36,18 @@
         android:text="3번 액티비티으로 이동"/>
 
     <TextView
-        android:id="@+id/resultTxt"
+        android:id="@+id/resultNameTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="4번에서 입력한 값"/>
+        android:text="4번에서 입력한 이름"/>
+
+    <TextView
+        android:id="@+id/resultAgeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="4번에서 입력한 나이"/>
     
     <Button
         android:id="@+id/fourthBtn"

@@ -9,11 +9,32 @@
     tools:context=".FourthActivity">
 
     <EditText
-        android:id="@+id/goBackMessageEdt"
+        android:id="@+id/goBackMessageNameEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:hint="메인으로 보낼 내용"/>
+        android:hint="메인으로 보낼 이름"/>
+
+    <EditText
+        android:id="@+id/goBackMessageAgeEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="메인으로 보낼 나이"/>
+
+    <EditText
+        android:id="@+id/goBackList01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="메인으로 보낼 List01"/>
+
+    <EditText
+        android:id="@+id/goBackList02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="메인으로 보낼 List02"/>
 
     <Button
         android:id="@+id/goBackBtn"
